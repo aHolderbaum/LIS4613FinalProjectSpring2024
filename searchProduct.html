@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Inventory</title>
+    <!--This page holds the form that allows users to search the inventory
+    when the form is submitted it sends a get request with the search query
+    to the /searchProduct enpoint to perform the search-->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h2>Search Inventory</h2>
+    <form id="search-form" action="http://localhost:3000/searchProduct" method="GET">
+        <label for="name">Name of Product</label>
+        <input type="text" id="searchBox" placeholder="Search by name" name="q">
+        <button id="button" type="submit">Search!</button>
+      </form>
+    
+
+  </body>
+</html>

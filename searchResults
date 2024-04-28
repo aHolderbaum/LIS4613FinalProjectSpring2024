@@ -1,0 +1,33 @@
+doctype html
+head
+  title Search Results
+  link(rel='stylesheet', href='style.css')
+  
+body
+h1 Inventory Search Results
+div(class="results")
+  a(class="search-again")(href='/searchProduct.html') Search Again
+
+  table(class=("output-table"))
+    thead
+      tr(class="output-header")
+        th Name
+        th Description
+        th Inventory
+        th Supplier
+        th Delete
+    tbody(class="output-results")
+      each supply in results
+       tr
+        td(class="output-row") #{supply.name}
+        td(class="output-row") #{supply.description}
+        td(class="output-row") #{supply.inventory}
+        td(class="output-row") #{supply.supplier}
+        td(class="output-row")
+          form(id="deleteForm" action='/deleteProduct/:id' method="POST")
+            input(type='hidden', name='id', value=`${supply.id}`)
+            button(type='submit', class="delete-button" data-product-id=`${supply.id}`) Delete
+
+
+
+<script src="deleteProduct.js"></script>

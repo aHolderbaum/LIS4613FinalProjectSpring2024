@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Product</title>
+    <link rel='stylesheet', href='style.css'>
+<!--This page is used to allow the user to submit new products to inventory-->
+</head>
+<body>
+    <h1>Add Product to Inventory</h1>
+    <form id="add-form" action="/add-product" method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="description" placeholder="Description" required>
+        <input type="text" name="inventory" placeholder="Inventory" required>
+        <input type="text" name="supplier" placeholder="Supplier" required>
+        <button type="submit">Add Product</button>
+    </form>
+</body>
+</html>

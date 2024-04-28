@@ -1,0 +1,124 @@
+/*  Adds the background color for the pages 
+    Sets the font family and color */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    background-color: aliceblue;
+    color: black;
+}
+
+/* Centers the headers and puts a margin around them for better spacing */
+h1,
+h2,
+h3 {
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+}
+/*Adds padding and a margin to the paragraph tag on the index page for better spacing */
+p {
+    margin: 20px;
+    padding: 20px;
+}
+/*  Adds padding and margin to the link that takes users back to the home page for better spacing
+    Sets the text color to black and removes the text decoration to make it look like regular text and not a link
+    Adds an outline for style
+*/
+.homepage-link {
+    padding: 10px;
+    margin: 25px;
+    outline: thick double #32a1ce;
+    color: black;
+    text-decoration: none;
+}
+/*Centers the links to the search and add functions on the main page of the website */
+.index-links{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*  Sets the design for the forms on the add and search pages
+*/
+#add-form,
+#search-form 
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    text-align: center;
+}
+/* Sets the design for the input boxes on the add and search page forms
+*/
+#add-form input,
+#search-form input {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*Sets the design for the submit buttons on the add and search page forms*/
+#add-form button,
+#search-form button {
+    padding: 10px 18px;
+    background-color: #32a1ce;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Changes the submit button slightly on the add and search pages when hovered over
+This helps the user know that they are about to click the submit button*/
+#add-form button:hover,
+#search-form button:hover {
+    background-color: #85d8f8;
+    color: black;
+}
+/* Centers the results on the search results page*/
+.results{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*Adds the outline and padding for the results table on the search results page*/
+.output-table {
+    outline: thick double #32a1ce;
+    margin-top: 5%;
+    padding: 10px;
+    display:block;
+    margin-left:25%;
+    max-width: 50%;
+}
+/*Sets the spacing on the results table*/
+.output-table th,
+.output-table td{
+    width: 15%;
+}
+/*  Sets the margin around the headers on the results table
+    Sets a border on the bottom of the header to seperate the header from the results */
+.output-header {
+    margin: 5px;
+    border-bottom: 2px #32a1ce;
+}
+/*Puts a margin around the search results to make them easier to read*/
+.output-results {
+    margin: 10px;
+}
+/*Adds spacing around each row of results to seperate the rows and improve readability*/
+.output-row {
+    padding: 5px;
+    margin-bottom:5px;
+}
+/*Sets the style for the button on the search results page that allows users to search again
+    Uses the same border and style as the links on the index page
+    Is centered for design*/
+.search-again {
+    padding: 10px;
+    margin: 25px;
+    outline: thick double #32a1ce;
+    color: black;
+    text-decoration: none;
+
+}
