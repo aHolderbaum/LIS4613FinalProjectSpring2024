@@ -47,8 +47,9 @@ node server.js
 ```
 Once the server is running, navigate to [http://localhost:3000/](http://localhost:3000/)
 
-This video shows the application in action
-https://github.com/aHolderbaum/LIS4613FinalProjectSpring2024/assets/50782338/8a38128d-6cb6-4981-ae1d-ff92cb367606
+
+[This video shows the application in action](https://youtu.be/1k2hhnM3Kds)
+
 
 ## License
 
