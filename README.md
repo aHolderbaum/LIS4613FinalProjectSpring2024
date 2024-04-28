@@ -40,9 +40,15 @@ server.js and databaseInit.js need to be in the inventory-system folder but not 
 In order to run the application, navigate to the inventory-system folder and run server.js
 ```Bash
 cd inventory-system
+
+
+
 node server.js
 ```
 Once the server is running, navigate to [http://localhost:3000/](http://localhost:3000/)
+
+This video shows the application in action
+https://github.com/aHolderbaum/LIS4613FinalProjectSpring2024/assets/50782338/8a38128d-6cb6-4981-ae1d-ff92cb367606
 
 ## License
 
